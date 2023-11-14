@@ -1,29 +1,59 @@
-# JavaScript Kata Template
+# Chrome Extention Lead tracker
 
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a>
+<a>This is Chrome Lead trackeer writen in JavaScript to track all active leads of Chrome tabs. You can add manualy leads and save them with save button and they are stored in your local machines storage.</a>
 
-> This is part of Academy's technical curriculum for **The Mark**. All parts of that curriculum, including this project, are licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>
+## Getting Started
 
-# Setup
+These are the instructions for you to set up the project locally. To get a local copy up and running follow these simple example steps.
 
-`yarn`
+### Prerequisites
 
-# Run tests
+Open a terminal in Visual Studio Code by selecting Terminal from the View menu:
 
-`yarn test` - this will run `jest`
- 
-or
+Install node:
 
-`yarn test --bail` - stop as soon as one suite fails
+```
+nvm install --lts
 
-or
+```
 
-`yarn test:watch` - this will run `jest --watchAll`
+Install npm :
 
-# Run without tests
+```
+npm install npm@latest -g
+```
 
-`yarn start` - this will run node src/main.js
+Once you have npm installed you can run the following to install Yarn:
 
-# Writing tests
+```
+npm install --global yarn
+```
 
-See https://jestjs.io/docs/expect
+### Installation
+
+Below is how to set up the app.
+
+1. Clone the repo
+
+```
+git clone https://github.com/your_username/Chrome-extention.git
+```
+
+2. Install project dependencies
+
+```
+yarn
+```
+
+### View the web app locally
+
+In your terminal run :
+
+```
+yarn start
+
+### Contributer
+
+[Laura H](https://github.com/laurahall93)
+
+```
